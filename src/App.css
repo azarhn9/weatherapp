@@ -1,0 +1,28 @@
+.weather-app {
+  margin: 50px auto;
+  width: 950px;
+}
+.card {
+  border-radius: 40px;
+  background: linear-gradient(
+    80deg,
+    rgb(134, 162, 189, 0.5) 31%,
+    rgb(91, 91, 97, 0.5) 60%
+  );
+
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 8%);
+  text-align: center;
+}
+.sourceLine {
+  font-size: 18px;
+  text-align: center;
+  color: #040c6b;
+  margin: 0 50px;
+}
+
+.sourceCodeLink {
+  color: #2ae6ec;
+}
+.sourceCode {
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+:root {
+  --primary-color: 109, 230, 230;
+}
+.daily-forecast {
+  border-radius: 100px;
+  padding: 20px 20px;
+  background: linear-gradient(
+    80deg,
+    rgba(64, 68, 68, 0.5) 31%,
+    rgba(157, 194, 196, 0.5) 61%
+  );
+
+  transition: all 150ms ease-in-out;
+}
+.daily-forecast:hover {
+  border-radius: 100px;
+  padding: 20px 20px;
+  background: linear-gradient(
+    80deg,
+    rgba(127, 216, 219, 0.5) 31%,
+    rgba(64, 68, 68, 0.5) 60%
+  );
+
+  transition: all 100ms ease-in-out;
+
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 10%);
+}
+.forecast-icons {
+  padding: 10px 0 10px 0;
+}
+
+.forecast-description:first-letter {
+  text-transform: capitalize;
+}
+.forecast-temperature {
+  color: #023744;
+  font-weight: 600;
+}
+.low-temp {
+  color: #05d2e0;
+  font-weight: 600;
+}
+.day {
+  font-size: 17px;
+  font-weight: bold;
+}
+.slash {
+  font-weight: normal;
+}

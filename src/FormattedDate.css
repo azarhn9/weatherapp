@@ -1,0 +1,9 @@
+h1 .calender-day {
+  font-size: 15px;
+  text-align: right;
+  padding-right: 15px;
+  color: cyan;
+}
+h1 .day-and-time {
+  font-size: 15px;
+}

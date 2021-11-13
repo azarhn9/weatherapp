@@ -1,0 +1,13 @@
+.conversion {
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding-right: 80px;
+}
+.conversion .current-temperature {
+  font-size: 60px;
+  vertical-align: top;
+}
+.conversion .cf-symbol {
+  font-size: 22px;
+  padding: 0;
+}
